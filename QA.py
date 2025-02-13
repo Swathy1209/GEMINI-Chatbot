@@ -12,7 +12,7 @@ st.title('Welcome to the Gemini Chatbot')
 st.write('Let’s start chatting!')
 
 # API Key Setup
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyAWGXuxsmGUhWnBzfj0dy9-zv61BHIH7i8'
+os.environ['GOOGLE_API_KEY'] = 
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 # Gemini Model Setup
