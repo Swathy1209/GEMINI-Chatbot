@@ -12,7 +12,7 @@ import google.generativeai as genai
 from IPython.display import display
 from IPython.display import Markdown
 
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyAWGXuxsmGUhWnBzfj0dy9-zv61BHIH7i8'
+os.environ['GOOGLE_API_KEY'] = 
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 def get_gemini_response(input,image):
